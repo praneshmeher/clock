@@ -1,0 +1,17 @@
+.clock{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin: 100px auto;
+    position: relative;
+}
+
+.hand{
+    height: 5px;
+    width: 50%;
+    top: 50%;
+    background: black;
+    position: absolute;
+    transform-origin: 100%;
+}
