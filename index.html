@@ -4,11 +4,13 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+
         <div class="clock">
             <div class="hand hour" style="width:40%; left: 10%;"></div>
             <div class="hand min"></div>
             <div class="hand sec"></div>
         </div>
+
         <script>
             const sec = document.querySelector('.sec')
             const min = document.querySelector('.min')
@@ -30,7 +32,7 @@
                 hour.style.transform = `rotate(${hourdeg}deg)`
 
             },1000)
-
         </script>
+
     </body>
 </html>
